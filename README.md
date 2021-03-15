@@ -58,7 +58,7 @@ $ sudo bash airosploit.sh
 
 > Supported Platform : **`Ubuntu/Debian/Kali`**
 
-### Find Me on :
+### Find Me on
 <p align="left">
   <a href="https://github.com/LeuvaApurv" target="_blank"><img src="https://img.shields.io/badge/Github-Leuva_Apurv-green?style=for-the-badge&logo=github"></a>
   <a href="https://www.linkedin.com/in/leuvaapurv" target="_blank"><img src="https://img.shields.io/badge/LinkedIn-%40Apurv_Leuva-blue?style=for-the-badge&logo=LinkedIn"></a>
