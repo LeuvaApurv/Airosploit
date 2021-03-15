@@ -39,7 +39,7 @@ $ git clone https://github.com/LeuvaApurv/Airosploit.git
 
 - Change to cloned directory and run `setup.sh` then `airosploit.sh`
 ```
-$ cd zphisher
+$ cd Airosploit
 $ sudo bash setup.sh
 $ sudo bash airosploit.sh
 ```
