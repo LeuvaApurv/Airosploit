@@ -1,0 +1,11 @@
+BLINK="$(printf '\e[05m')"
+RESET="$(printf '\e[0m')" 
+RED="$(printf '\e[1;31m')"  
+GREEN="$(printf '\e[1;32m')"  
+ORANGE="$(printf '\e[1;33m')"  
+BLUE="$(printf '\e[1;34m')"
+MAGENTA="$(printf '\e[1;35m')"  
+CYAN="$(printf '\e[1;36m')"  
+WHITE="$(printf '\e[1;37m')" 
+BLACK="$(printf '\e[1;30m')"
+
