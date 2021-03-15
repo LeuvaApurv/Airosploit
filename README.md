@@ -24,13 +24,10 @@
 
 ### Features
 
-- Latest and updated login pages.
-- Mask URL support 
-- Beginners friendly
-- Docker support (checkout `docker-legacy` branch)
-- Multiple tunneling options
-  - Localhost
-  - Ngrok (With or without hotspot)
+- Network Discover
+- ARP Spoofing
+- Packet Sniffing
+- DNS Spoofing
 
 
 ### Installation
