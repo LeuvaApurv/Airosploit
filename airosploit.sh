@@ -60,8 +60,7 @@ read  h
 case "$h" in
 1)airosploit_net_discover;;
 2)airosploit_about;;
-3)
-;;
+3)git pull &> $AIROSPLOITNull ;;
 4)clear
 ariosploit_shutdown
 exit;;
