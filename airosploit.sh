@@ -50,7 +50,7 @@ clear
 airosploit_banner
 echo "${RED}[${ORANGE}*${RED}]${GREEN} Updating your Airosploit Tool form GitHub"
 git pull &> $AIROSPLOITNull
-echo "${GREEN}[${ORANGE}*${GREEN}]${GREEN} Successfully Update !!"
+echo -e "\n${GREEN}[${ORANGE}*${GREEN}]${GREEN} Successfully Update !!"
 sleep 2
 }
 #=======#
