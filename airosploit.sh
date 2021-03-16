@@ -44,6 +44,14 @@ exit;;
 airosploit_about;;
 esac
 }
+
+airosploit_update(){
+clear
+airosploit_banner
+echo "${RED}[${ORANGE}*${RED}]${GREEN} Updating your Airosploit Tool form GitHub"
+git pull &> $AIROSPLOITNull
+echo "${GREEN}[${ORANGE}*${GREEN}]${GREEN} Successfully Update !!"
+}
 #=======#
 # First #
 #=======#
@@ -60,7 +68,7 @@ read  h
 case "$h" in
 1)airosploit_net_discover;;
 2)airosploit_about;;
-3)git pull &> $AIROSPLOITNull ;;
+3)airosploit_update;;
 4)clear
 ariosploit_shutdown
 exit;;
