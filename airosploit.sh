@@ -37,7 +37,10 @@ echo -en "\n${GREEN}[${WHITE}*${GREEN}]${ORANGE} Select an option :${CYAN} "
 read  h
 case "$h" in
 1)airosploit_net_discover;;
-2);;
+2)echo -e ""\n${RED}[${ORANGE}*${RED}]${GREEN} Airosploit	: 	Automated Wifi Hacking Tool"
+echo -e ""\n${RED}[${ORANGE}*${RED}]${GREEN} Author 	: 	Apurv Leuva"
+echo -e ""\n${RED}[${ORANGE}*${RED}]${GREEN} Version 	: 	1.0"
+echo -e ""\n${RED}[${ORANGE}*${RED}]${GREEN} Github 	: 	https://github.com/LeuvaApurv/Airosploit";;
 3)clear
 ariosploit_shutdown
 exit;;
