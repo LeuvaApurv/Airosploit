@@ -78,7 +78,7 @@ esac
 airosploit_3() {
 clear
 airosploit_banner
-echo "${RED}[${ORANGE}1${RED}]${GREEN} Packet Sniffing"
+echo "${RED}[${ORANGE}1${RED}]${GREEN} HTTP Packet Sniffing"
 echo "${RED}[${ORANGE}2${RED}]${GREEN} DNS Spoofing"
 echo "${RED}[${ORANGE}3${RED}]${ORANGE} File Intercepter ${GREEN}(Coming soon stay tuned)"
 echo "${RED}[${ORANGE}4${RED}]${ORANGE} Code Injector ${GREEN}(Coming soon stay tuned)"
