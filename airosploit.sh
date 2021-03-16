@@ -51,6 +51,7 @@ airosploit_banner
 echo "${RED}[${ORANGE}*${RED}]${GREEN} Updating your Airosploit Tool form GitHub"
 git pull &> $AIROSPLOITNull
 echo "${GREEN}[${ORANGE}*${GREEN}]${GREEN} Successfully Update !!"
+sleep 2
 }
 #=======#
 # First #
@@ -71,6 +72,7 @@ case "$h" in
 3)airosploit_update;;
 4)clear
 ariosploit_shutdown
+airosploit_1
 exit;;
 *)echo -e "\n${RED}[${WHITE}-${RED}]${RED} Invalid";sleep 1;clear
 airosploit_1;;
