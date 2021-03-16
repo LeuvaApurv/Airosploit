@@ -69,10 +69,10 @@ read  h
 case "$h" in
 1)airosploit_net_discover;;
 2)airosploit_about;;
-3)airosploit_update;;
+3)airosploit_update
+airosploit_1;;
 4)clear
 ariosploit_shutdown
-airosploit_1
 exit;;
 *)echo -e "\n${RED}[${WHITE}-${RED}]${RED} Invalid";sleep 1;clear
 airosploit_1;;
