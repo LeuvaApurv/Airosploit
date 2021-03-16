@@ -23,6 +23,27 @@ source "$AIROSPLOITLibPath/BannerUtils.sh"
 source "$AIROSPLOITLibPath/AllFunctionUtils.sh"
 source "$AIROSPLOITLibPath/CheckSetupUtils.sh"
 
+airosploit_about(){
+clear
+airosploit_banner
+echo "${GREEN}Author   ${RED}:  ${ORANGE}Apurv Leuva"
+echo "${GREEN}Github   ${RED}:  ${CYAN}https://github.com/LeuvaApurv"
+echo "${GREEN}Social   ${RED}:  ${CYAN}https://www.linkedin.com/in/leuvaapurv"
+echo "${GREEN}Version  ${RED}:  ${ORANGE}1.0"
+echo -e "\n\n${RED}[${ORANGE}1${RED}]${GREEN} Main menu"
+echo "${RED}[${ORANGE}2${RED}]${RED} Exit"
+echo -e "\n${BLUE}=============================================="
+echo -en "\n${GREEN}[${WHITE}*${GREEN}]${ORANGE} Select an option :${CYAN} "
+read  ab
+case "$ab" in
+1)airosploit_1;;
+2)clear
+ariosploit_shutdown
+exit;;
+*)echo -e "\n${RED}[${WHITE}-${RED}]${RED} Invalid";sleep 1;clear
+airosploit_about;;
+esac
+}
 #=======#
 # First #
 #=======#
@@ -31,17 +52,17 @@ clear
 airosploit_banner
 echo "${RED}[${ORANGE}1${RED}]${GREEN} List of Connected Device in your Network"
 echo "${RED}[${ORANGE}2${RED}]${GREEN} About"
-echo "${RED}[${ORANGE}3${RED}]${RED} Exit"
+echo "${RED}[${ORANGE}3${RED}]${GREEN} Update"
+echo "${RED}[${ORANGE}4${RED}]${RED} Exit"
 echo -e "\n${BLUE}=============================================="
 echo -en "\n${GREEN}[${WHITE}*${GREEN}]${ORANGE} Select an option :${CYAN} "
 read  h
 case "$h" in
 1)airosploit_net_discover;;
-2)echo -e ""\n${RED}[${ORANGE}*${RED}]${GREEN} Airosploit	: 	Automated Wifi Hacking Tool"
-echo -e ""\n${RED}[${ORANGE}*${RED}]${GREEN} Author 	: 	Apurv Leuva"
-echo -e ""\n${RED}[${ORANGE}*${RED}]${GREEN} Version 	: 	1.0"
-echo -e ""\n${RED}[${ORANGE}*${RED}]${GREEN} Github 	: 	https://github.com/LeuvaApurv/Airosploit";;
-3)clear
+2)airosploit_about;;
+3)
+;;
+4)clear
 ariosploit_shutdown
 exit;;
 *)echo -e "\n${RED}[${WHITE}-${RED}]${RED} Invalid";sleep 1;clear
